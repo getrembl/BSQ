@@ -13,7 +13,7 @@
 #include "ft.h"
 #include <stdlib.h>
 #include <unistd.h>
-#include <stdio.h>
+
 int		main(void)
 {
 	int ret;
@@ -33,6 +33,5 @@ int		main(void)
 		str = ft_mallocat(str, buf);
 		buf = (char*)malloc(sizeof((*buf) * 1000));
 	}
-	printf("\n%s\n", str);
 	return (0);
 }

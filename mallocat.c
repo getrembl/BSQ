@@ -6,7 +6,7 @@
 /*   By: sdurr <sdurr@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/08/18 17:17:05 by sdurr             #+#    #+#             */
-/*   Updated: 2014/08/18 18:51:45 by sdurr            ###   ########.fr       */
+/*   Updated: 2014/08/18 19:02:48 by sdurr            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ char	*ft_mallocat(char *str, char *buf)
 	tmp = (char *)malloc(sizeof(char) * 1000);
 	if (tmp == NULL)
 		return (0);
-	printf("\n%s\n", buf);
 	while (str[++i])
 		tmp[j++] = str[i];
 	i = -1;
