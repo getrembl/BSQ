@@ -22,7 +22,7 @@ char	*ft_mallocat(char *str, char *buf)
 
 	i = -1;
 	j = 0;
-	tmp = (char *)malloc(sizeof(char) * 1000);
+	tmp = (char *)malloc(sizeof(char) * 1000); // C'est vrai que strlen(buf) + strlen(str), c'est trop hardcore 
 	if (tmp == NULL)
 		return (0);
 	while (str[++i])
